@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deni Situmorang - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Tongam Deni Gamaliel Situmorang</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#vision">Vision & Mission</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu" id="mobileMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 id="heroName">Hi, I'm Tongam Deni Gamaliel Situmorang</h1>
+            <p class="hero-subtitle">Call me Deni - National University Students</p>
+            <a href="#about" class="cta-button">Discover More</a>
+        </div>
+    </section>
+
+    <!-- Photo Banner -->
+    <section class="photo-banner">
+        <div class="section" style="text-align:center;">
+            <div class="profile-photo">
+                <img src="picture/foto.jpg" alt="Foto Profil Tongam Deni Gamaliel Situmorang" style="width:150px; height:150px; object-fit:cover; border-radius:50%; border:3px solid #eee; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+            </div>
+            <h2>Tongam Deni Gamaliel Situmorang</h2>
+            <p>Jesus is source of life</p>
+        </div>  
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Siapa Saya</h3>
+                <p>Saya adalah Tongam Deni Gamaliel Situmorang, panggil saya "Deni", salah satu hobi saya adalah bermain badminton dan mempelajari sesuatu hal yang baru. Selain itu, saya merupakan mahasiswa dengan jurusan Sistem Informasi</p>
+                <p>Saya memiliki skill di bidang Sistem Informasi seperti HTML, CSS, PHP, SQL, dan UI/UX  dan akhir-akhir ini saya sedang tertarik dalam mengembangkan skill saya dalam bidang Developer dan Desain</p>
+            </div>
+            <div class="skills skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>Create a modern and minimalist website</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>UI/UX Design</h3>
+                    <p>Create designs that suit user needs and are beautiful to look at</p>
+                </div>
+                <div class="skill-card skill-card-center">
+                    <div class="skill-icon">⚡</div>
+                    <h3>Performance</h3>
+                    <p>Become someone who is focused on work, thorough, and able to work together in a team</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Mission -->
+    <section class="vision-mission section" id="vision">
+        <h2 class="section-title">My Vision and Mission</h2>
+        <div class="vm-grid">
+            <div class="vm-card">
+                <h3>My Vision</h3>
+                <p>Menjadi pribadi yang terus belajar, berkembang, dan memberi dampak positif bagi lingkungan sekitar melalui pengetahuan, integritas, dan tindakan nyata.</p>
+            </div>
+            <div class="vm-card">
+                <h3>My Mission</h3>
+                <p>Menumbuhkan semangat belajar seumur hidup dalam bidang yang saya tekuni dan mengembangkan diri melalui pengalaman, kolaborasi, dan inovasi.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <h2 class="section-title">Message Us</h2>
+                <div class="contact-links" style="margin-top: 20px; text-align: center;">
+            <a href="https://www.instagram.com/dengmll?igsh=MWc0enpvcHkxZDFvNw==" target="_blank" rel="noopener" style="margin-right: 15px; text-decoration: none; color: #E1306C; font-weight: bold;">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" style="width:24px; vertical-align:middle; margin-right:6px;"> Instagram
+            </a>
+            <a href="https://www.linkedin.com/in/tongam-deni-gamaliel-341308378" target="_blank" rel="noopener" style="text-decoration: none; color: #0077B5; font-weight: bold;">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" style="width:24px; vertical-align:middle; margin-right:6px;"> LinkedIn
+            </a>
+        </div>
+        <form class="contact-form" id="contactForm">
+            <form class="contact-form" id="contactForm" action="https://formspree.io/f/xwkgrgqg" method="POST">
+                <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Tongam Deni Gamaliel Situmorang. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
